@@ -1,5 +1,5 @@
 import NavBar from "../../components/NavBar";
-import { Container, Form, TitleTop } from "./styles";
+import { Container, Form, TitleTop } from "../../../styles/Contacts/styles";
 
 export default function Contacts() {
   return (

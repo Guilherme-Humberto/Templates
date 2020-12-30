@@ -1,6 +1,6 @@
 import Image from "next/image";
 import NavBar from "../../components/NavBar";
-import { Container, TextsTop, Title, Desc, ImageBox } from "./styles";
+import { Container, TextsTop, Title, Desc, ImageBox } from "../../../styles/About/styles";
 
 export default function About() {
   return (

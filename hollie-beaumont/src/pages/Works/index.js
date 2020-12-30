@@ -11,7 +11,7 @@ import {
   Title,
   Footer,
   TextFooter
-} from "./styles";
+} from "../../../styles/Works/styles";
 
 export default function Works() {
   return (
