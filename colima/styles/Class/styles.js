@@ -16,7 +16,6 @@ export const Header = styled.div`
   align-items: center;
   width: 100%;
   height: 300px;
-  background: red;
 `;
 export const Texts = styled.div`
   position: absolute;
