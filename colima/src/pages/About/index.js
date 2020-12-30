@@ -19,6 +19,7 @@ export default function About() {
             <Image
               src="https://images.pexels.com/photos/3286006/pexels-photo-3286006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               layout="fill"
+              priority
               objectFit="cover"
               objectPosition="center"
             />
@@ -42,6 +43,7 @@ export default function About() {
             <Image
               src="https://images.pexels.com/photos/4498193/pexels-photo-4498193.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
               layout="fill"
+              priority
               className="img"
               objectPosition="center"
               objectFit="cover"

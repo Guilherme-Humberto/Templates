@@ -10,6 +10,7 @@ export default function Section3() {
             className="img"
             src="https://images.pexels.com/photos/4473612/pexels-photo-4473612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             layout="fill"
+            priority
           />
           <HeaderContent>
             <p>Lorem, ipsum dolor.</p>
@@ -35,6 +36,7 @@ export default function Section3() {
             className="img"
             src="https://images.pexels.com/photos/3735494/pexels-photo-3735494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             layout="fill"
+            priority
           />
           <HeaderContent>
             <p>Lorem, ipsum dolor.</p>

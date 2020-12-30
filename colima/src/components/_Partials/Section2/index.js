@@ -11,6 +11,7 @@ export default function Section2() {
           <Image
             src="https://images.pexels.com/photos/3759657/pexels-photo-3759657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             layout="fill"
+            priority
             className="img"
             objectFit="cover"
             objectPosition="center"
@@ -21,6 +22,7 @@ export default function Section2() {
           <Image
             src="https://images.pexels.com/photos/3822727/pexels-photo-3822727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             layout="fill"
+            priority
             className="img"
             objectFit="cover"
             objectPosition="center"

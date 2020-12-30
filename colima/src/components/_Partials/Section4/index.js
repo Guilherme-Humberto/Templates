@@ -11,6 +11,7 @@ export default function Section4() {
         <Image
           src="https://images.pexels.com/photos/4057733/pexels-photo-4057733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           layout="fill"
+          priority
           className="img"
           objectPosition="center"
           objectFit="cover"
@@ -20,6 +21,7 @@ export default function Section4() {
         <Image
           src="https://images.pexels.com/photos/4057731/pexels-photo-4057731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           layout="fill"
+          priority
           className="img"
           objectPosition="center"
           objectFit="cover"
@@ -29,6 +31,7 @@ export default function Section4() {
         <Image
           src="https://images.pexels.com/photos/4057732/pexels-photo-4057732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           layout="fill"
+          priority
           className="img"
           objectPosition="center"
           objectFit="cover"

@@ -19,6 +19,7 @@ export default function ClassPage() {
           <Image
             src="https://images.pexels.com/photos/2294353/pexels-photo-2294353.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             layout="fill"
+            priority
             className="img"
             objectPosition="center"
             objectFit="cover"
@@ -65,6 +66,7 @@ export default function ClassPage() {
           <Image
             src="https://images.pexels.com/photos/864939/pexels-photo-864939.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             layout="fill"
+            priority
             className="img"
             objectPosition="center"
             objectFit="cover"
@@ -84,6 +86,7 @@ export default function ClassPage() {
           <Image
             src="https://images.pexels.com/photos/4056535/pexels-photo-4056535.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             layout="fill"
+            priority
             className="img"
             objectPosition="center"
             objectFit="cover"

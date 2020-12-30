@@ -18,6 +18,7 @@ export default function Instructors() {
           <Image
             src="https://images.pexels.com/photos/5255556/pexels-photo-5255556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             layout="fill"
+            priority
             className="img"
             objectFit="cover"
           />
@@ -47,6 +48,7 @@ export default function Instructors() {
           <Image
             src="https://images.pexels.com/photos/2078265/pexels-photo-2078265.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             layout="fill"
+            priority
             className="img"
             objectFit="cover"
           />
@@ -58,6 +60,7 @@ export default function Instructors() {
           <Image
             src="https://images.pexels.com/photos/4058316/pexels-photo-4058316.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             layout="fill"
+            priority
             className="img"
             objectFit="cover"
           />
@@ -87,6 +90,7 @@ export default function Instructors() {
           <Image
             src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
             layout="fill"
+            priority
             className="img"
             objectFit="cover"
           />

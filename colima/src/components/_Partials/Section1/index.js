@@ -7,6 +7,7 @@ export default function Section1() {
       <ImageWrapper>
         <Image
           className="img"
+          priority
           src="https://images.pexels.com/photos/3758056/pexels-photo-3758056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           layout="fill"
         />
