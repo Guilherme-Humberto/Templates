@@ -8,6 +8,7 @@ export const Container = styled.div`
   justify-content: center;
   height: 100%;
   gap: 10px;
+  margin: 100px auto;
 
   > p:nth-child(1) {
     font-size: clamp(1.6rem, 5vw, 2rem);

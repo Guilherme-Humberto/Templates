@@ -21,7 +21,7 @@ export const FirstWrapper = styled.div`
         width: min(700px, 100%);
         > p:nth-child(1) {
             font-size: clamp(1rem, 5vw, 1.8rem);
-            font-weight: 500;
+            font-weight: bold;
             margin: 20px 0;
         }
         > p:nth-child(2) {

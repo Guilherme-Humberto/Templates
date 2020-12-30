@@ -6,11 +6,13 @@ import {
   Texts,
   AboutClass,
 } from "../../../styles/Class/styles";
+import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar/index";
 
 export default function ClassPage() {
   return (
-    <Container>
+    <>
+<Container>
       <NavBar />
       <Header>
         <ImageBox>
@@ -58,6 +60,47 @@ export default function ClassPage() {
           accusamus vel! Dignissimos tempora quasi minus ad reprehenderit.
         </p>
       </AboutClass>
+      <Header large>
+        <ImageBox>
+          <Image
+            src="https://images.pexels.com/photos/864939/pexels-photo-864939.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+            layout="fill"
+            className="img"
+            objectPosition="center"
+            objectFit="cover"
+          />
+          <Texts>
+            <p>Nossa Estrutura</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+              sapiente temporibus sit ab modi quo necessitatibus at ipsa
+              voluptatem tenetur.
+            </p>
+          </Texts>
+        </ImageBox>
+      </Header>
+      <Header large>
+        <ImageBox>
+          <Image
+            src="https://images.pexels.com/photos/4056535/pexels-photo-4056535.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            layout="fill"
+            className="img"
+            objectPosition="center"
+            objectFit="cover"
+          />
+          <Texts>
+            <p>Qualidade</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+              sapiente temporibus sit ab modi quo necessitatibus at ipsa
+              voluptatem tenetur.
+            </p>
+          </Texts>
+        </ImageBox>
+      </Header>
     </Container>
+
+    <Footer />
+    </>
   );
 }

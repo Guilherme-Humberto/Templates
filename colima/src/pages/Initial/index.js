@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
 import Section1 from "../../components/_Partials/Section1";
 import Section2 from "../../components/_Partials/Section2";
@@ -13,6 +14,7 @@ export default function Initial() {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Footer />
     </>
   );
 }

@@ -5,7 +5,6 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px 0;
   margin: 100px auto;
 
   width: 100%;
@@ -16,6 +15,10 @@ export const Header = styled.div`
   align-items: center;
   width: 100%;
   height: 300px;
+
+  ${props => props.large && css`
+    height: 500px;
+  `}
 `;
 export const Texts = styled.div`
   position: absolute;
