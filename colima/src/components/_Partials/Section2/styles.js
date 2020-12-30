@@ -67,6 +67,7 @@ export const TitleCard = styled.div`
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
 
     font-size: clamp(1.4rem, 5vw, 2rem);

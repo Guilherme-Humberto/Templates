@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,16 +28,14 @@ export const ContainerCards = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     gap: 30px;
     flex-wrap: wrap;
 `
 export const Card = styled.div`
     position: relative;
     height: 400px;
-    width: 400px;
+    width: min(350px, 100%);
 
-    .img {
-      border-radius: 1%;
-    }
     
 `

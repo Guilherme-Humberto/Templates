@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 150px auto;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +33,8 @@ export const HeaderContent = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    width: 100%;
     color: #fff;
 
     > p:nth-child(1) {
@@ -41,6 +43,7 @@ export const HeaderContent = styled.div`
     > p:nth-child(2) {
         font-size: clamp(0.5rem, 5vw, 1.5rem);
         font-weight: 300;
+        max-width: 800px;
     }
 `
 export const Texts = styled.div`

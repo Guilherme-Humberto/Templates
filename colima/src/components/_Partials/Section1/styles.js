@@ -29,8 +29,8 @@ export const ContentWrapper = styled.div`
 
 
     > p:nth-child(1) {
-        font-size: clamp(1.8rem, 5vw, 3.5rem);
-        width: min(800px, 100%);
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        max-width: 700px;
         font-weight: 500;
         margin: 10px 0;
     }

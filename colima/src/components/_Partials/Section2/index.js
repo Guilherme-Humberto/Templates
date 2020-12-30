@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { Container, ContentWrapper, Title, TitleCard, CardsFlex, CardsWrapper } from "./styles";
 
-export default function Section2({ elementRef }) {
+export default function Section2() {
   return (
-    <Container ref={elementRef}>
+    <Container>
       <ContentWrapper>
         <Title>Próximas aulas</Title>
         <CardsFlex>

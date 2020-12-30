@@ -1,7 +1,5 @@
 import styled, { css } from "styled-components";
 import { VscMenu } from 'react-icons/vsc'
-import { AiOutlineClose } from 'react-icons/ai'
-import Link from 'next/link'
 
 export const Container = styled.div`
   position: fixed;
@@ -11,40 +9,20 @@ export const Container = styled.div`
   width: 100%;
   
   color: #fff;
-  background: transparent;
+  background: #212529;
   display: flex;
+  gap: 20px;
   align-items: center;
   justify-content: space-around;
   transition: 0.5s ease-in-out;
   transform: translateY(0);
 
-  > p {
+  > a {
     font-size: clamp(1.6rem, 5vw, 2.3rem);
     text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
   }
-
-  ${props => props.elementRef && css`
-    opacity: 1;
-    transition: 0.5s ease-in-out;
-    transform: translateY(0);
-    background: #eee;
-    color: #333;
-
-    .linkContainer {
-      > a {
-        color: #333;
-      }
-      > button {
-        border: 2px solid #333;
-        color: #333;
-
-        :hover {
-          background: #333;
-          color: #fff;
-        }
-      }
-    }
-  `}
 `;
 export const IconMenu = styled(VscMenu)`
   font-size: clamp(1.6rem, 5vw, 2rem);
@@ -60,7 +38,7 @@ export const NavBarLinks = styled.div`
   @media (min-width: 760px) {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
     > a {
       text-decoration: none;
