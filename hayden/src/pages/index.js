@@ -1,9 +1,9 @@
-import Works from './Works'
+import Initial from './Initial'
 
 export default function Home() {
   return (
     <>
-      <Works />
+      <Initial />
     </>
   )
 }
