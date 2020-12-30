@@ -25,7 +25,7 @@ export default function Section2() {
             objectFit="cover"
             objectPosition="center"
           />
-          <TitleCard>Treinamento para intrutores</TitleCard>
+          <TitleCard>Treinamento para instrutores</TitleCard>
         </CardsWrapper>
         </CardsFlex>
         
