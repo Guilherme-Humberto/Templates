@@ -10,6 +10,7 @@ export default function Section4() {
             className="img"
             src="https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             layout="fill"
+            priority
           />
           <HeaderContent>
             <p>Pacific Tavern</p>

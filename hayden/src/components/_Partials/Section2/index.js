@@ -30,6 +30,7 @@ export default function Section2({ elementRef }) {
               className="img"
               src="https://images.pexels.com/photos/5825527/pexels-photo-5825527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               layout="fill"
+              priority
             />
           </ImageBox>
           <TitleCard>RESIDENCIAL</TitleCard>
@@ -45,6 +46,7 @@ export default function Section2({ elementRef }) {
               className="img"
               src="https://images.pexels.com/photos/5825553/pexels-photo-5825553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               layout="fill"
+              priority
             />
           </ImageBox>
           <TitleCard>RESIDENCIAL</TitleCard>
@@ -60,6 +62,7 @@ export default function Section2({ elementRef }) {
               className="img"
               src="https://images.pexels.com/photos/5825537/pexels-photo-5825537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               layout="fill"
+              priority
             />
           </ImageBox>
           <TitleCard>RESIDENCIAL</TitleCard>
