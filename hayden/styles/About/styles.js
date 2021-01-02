@@ -51,12 +51,13 @@ export const Card = styled.div`
 
   > div {
     > p:nth-child(1) {
-      font-size: clamp(1rem, 5vw, 1.2rem);
+      font-size: clamp(1.5rem, 5vw, 1.5rem);
       margin: 5px 0;
       font-weight: 500;
+      color: #333;
     }
     > p:nth-child(2) {
-      font-size: clamp(0.5rem, 4vw, 1rem);
+      font-size: clamp(1rem, 5vw, 1.2rem);
       margin: 5px 0;
       color: #333;
     }
@@ -73,6 +74,7 @@ export const ImageBox = styled.div`
 `;
 export const AboutUs = styled.div`
   width: 95%;
+  margin: 30px auto;
 
   > div {
     width: min(800px, 100%);
@@ -102,15 +104,16 @@ export const AboutUs = styled.div`
       > div {
         margin: 0 auto;
         > p:nth-child(1) {
-          font-size: clamp(1.6rem, 5vw, 2rem);
+          font-size: clamp(1.9rem, 5vw, 2rem);
           font-weight: 500;
+          font-style: italic;
           margin: 10px 0;
           color: #222;
         }
         > p:nth-child(2) {
           font-size: clamp(1.1rem, 5vw, 1.5rem);
           font-weight: 400;
-          margin: 10px 0;
+          margin: 10px 5px;
           max-width: 1100px;
           color: #444;
         }

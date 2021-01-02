@@ -53,13 +53,14 @@ export const Texts = styled.div`
     margin: 30px 20px;
 
     > p:nth-child(1) {
-        font-size: clamp(1.7rem, 5vw, 1.8rem);
+        font-size: clamp(1.4rem, 5vw, 1.8rem);
         color: #333;
     }
     > p:nth-child(2) {
         font-size: clamp(1rem, 5vw, 1.3rem);
         color: #333;
-        margin: 20px 0;
-        max-width: 900px;
+        margin: 20px 5px;
+        max-width: 700px;
+        font-weight: 300;
     }
 `

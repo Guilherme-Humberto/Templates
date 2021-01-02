@@ -55,7 +55,7 @@ export const Texts = styled.div`
       font-size: clamp(1.1rem, 5vw, 1.4rem);
       font-weight: 400;
       max-width: 800px;
-      margin-top: 20px;
+      margin: 20px 5px;
       color: #333;
     }
 `
