@@ -16,7 +16,6 @@ export const Header = styled.div`
   .img {
     filter: brightness(40%);
   }
-
   > div {
     position: absolute;
     bottom: 20%;
