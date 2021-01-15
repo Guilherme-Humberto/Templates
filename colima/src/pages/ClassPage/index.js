@@ -12,7 +12,7 @@ import NavBar from "../../components/NavBar/index";
 export default function ClassPage() {
   return (
     <>
-<Container>
+  <Container>
       <NavBar />
       <Header>
         <ImageBox>
